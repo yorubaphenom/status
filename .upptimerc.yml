@@ -1,0 +1,45 @@
+owner: yorubaphenom
+repo: status
+
+sites:
+  - name: Frontend (dev)
+    url: https://dev.tenanttea.com
+    expectedStatusCodes:
+      - 200
+      - 307
+
+  - name: API (dev)
+    url: https://api-dev.tenanttea.com/api/health/
+    expectedStatusCodes:
+      - 200
+
+  - name: API Health DB
+    url: https://api-dev.tenanttea.com/api/health/
+    __dangerous__body_down: '"database":{"status":"error"}'
+
+  - name: WebSocket (dev)
+    url: https://rentr-api-dev.fly.dev/ws/notifications/
+    expectedStatusCodes:
+      - 403
+    # 403 = auth required = server is running and accepting WS upgrades
+
+status-website:
+  cname: status.tenanttea.com
+  name: TenantTea Status
+  theme: dark
+  logoUrl: https://dev.tenanttea.com/favicon.ico
+  navbar:
+    - title: Homepage
+      href: https://dev.tenanttea.com
+
+workflowSchedule:
+  uptime: "*/5 * * * *"
+  graphs: "0 */6 * * *"
+  staticSite: "0 */12 * * *"
+  summary: "0 0 * * *"
+
+i18n:
+  activeIncidents: Active Incidents
+  noActiveIncidents: All systems operational
+  pastIncidents: Past Incidents
+  pastIncidentsResolved: Resolved
