@@ -58,17 +58,17 @@
     "url": "https://rentr-api-dev.fly.dev/ws/notifications/",
     "icon": "https://icons.duckduckgo.com/ip3/rentr-api-dev.fly.dev.ico",
     "slug": "web-socket-dev",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 295,
-    "timeDay": 274,
-    "timeWeek": 325,
-    "timeMonth": 295,
-    "timeYear": 295,
+    "time": 293,
+    "timeDay": 280,
+    "timeWeek": 312,
+    "timeMonth": 293,
+    "timeYear": 293,
     "dailyMinutesDown": {}
   }
 ]
