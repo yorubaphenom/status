@@ -1,7 +1,7 @@
 url: https://rentr-api-dev.fly.dev/ws/notifications/
-status: down
-code: 404
-responseTime: 138
-lastUpdated: 2026-03-28T17:42:08.310Z
+status: up
+code: 403
+responseTime: 193
+lastUpdated: 2026-03-29T04:45:43.267Z
 startTime: 2026-02-27T09:24:43.136Z
 generator: Upptime <https://github.com/upptime/upptime>
