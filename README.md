@@ -1,5 +1,5 @@
 # TenantTea Status
 
-Service status and uptime monitoring for [TenantTea](https://dev.tenanttea.com), powered by [Upptime](https://upptime.js.org).
+Service status and uptime monitoring for [TenantTea](https://tenanttea.com), powered by [Upptime](https://upptime.js.org).
 
-Live status page: **[status.tenanttea.com](https://status.tenanttea.com)** (or [yorubaphenom.github.io/status](https://yorubaphenom.github.io/status))
+Live status page: **[tenanttea.github.io/status](https://tenanttea.github.io/status)**
